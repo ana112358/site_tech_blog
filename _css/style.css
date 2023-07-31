@@ -1,34 +1,45 @@
-@charset "UTF-08";
+@charset "UTF-8";
 
 
 body{
     font-family: "Trebuchet MS. Helvetica", sans-serif;
     background-color: #f4f4f4;
     }
-body p{
+
+p{
     font-size: 14px;
 }
+
+h2{
+    color:#fdc413;
+    margin-top: 10px;
+    margin-bottom: -15px;
+}
+h3{
+    background-color: rgb(0, 0, 0,0.3);
+    padding: 5px;
+    margin-top: 0px;
+}
+
+
 .clear{
     clear: both;
 }
-.fundo_branco{
-    background-color: #ffffff;
-}
-header#cabecalho{
+
+#cabecalho{
     background-color: #fdc413;
     height: 150px;
     }
-
-header#cabecalho h1 {
+#cabecalho h1 {
     display: inline;
     font-size: 50px;
     }
-div#logo{
+#logo{
     text-align: center;  
     position: relative;
     top: 30px;          
     }
-header#cabecalho nav {
+#cabecalho nav {
     text-align: center;
     position:relative;
     top:30px;
@@ -38,85 +49,54 @@ li{
     text-align: center;
     margin: 10px;     
     }
-header#cabecalho a{
+#cabecalho a{
     text-decoration: none;
     color: #ffffff;
     padding: 10px;
     font-weight: bold;
     }
-header#cabecalho a:hover{
+#cabecalho a:hover{
     color: #fdc413;
     background-color: #ffffff; 
 }
 
-div#principal{
+#principal{
     background-color: #f4f4f4;
     width: 1000px;
     margin: auto ;
 }
-div#conteudo{
+#conteudo_principal{
+    float: left;
+}
+#postagens_laterais{
+    float: right;
+}
+
+.conteudo{
     width: 650px;
     background-color: #ffffff;
     padding: 10px;
-    float: left;
     margin-top: 10px;
 }
-#conteudo h2{
-    color:#fdc413;
-    margin-top: 10px;
-    margin-bottom: -15px;
-}
-
-div#postagens_recentes{
+.conteudo_lateral{
     width: 300px;
     height: 200px;
-    float: right;
-    background-color: #ffffff;
-    padding: 10px;
-    margin-top: 10px;
-
-}
-#postagens_recentes h2{
-    background-color: rgb(0, 0, 0,0.3);
-    padding: 5px;
-    margin-top: 0px;
-
-}
-div#categoria{
-    width: 300px;
-    height: 200px;
-    float: right;
     background-color: #ffffff;
     padding: 10px;
     margin-top: 10px;
 }
-#categoria h2{
-    background-color: rgb(0, 0, 0,0.3);
-    padding: 5px;
-    margin-top: 0px;
-}
 
-#categoria a{
+
+.conteudo_lateral a{
     text-decoration: none;
+    color: #fdc413;
     display: block;
-    color: #fdc413;
-    font-size: 20px;
-}
 
-#link{
-    margin-top: -20px;
 }
-#postagens_recentes a{
-    color: #fdc413;
-}
-
 #rodape{
     text-align: center;
     background-color: #ccc;
     height: 100px;
 }
-#rodape p{
-    position: relative;
-    top: 40px;
-}
+
 
